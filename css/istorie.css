@@ -25,10 +25,12 @@
 
 h1{
   font-size: 2.3rem;
+  margin-top: 4rem;
 }
 
 #timeline ul {
   background: url(../Images/istorie/_DSC52612.jpg) fixed center center/cover;
+  width: 100%;
   z-index: -1;
   padding-bottom: 20px;
 }
@@ -125,7 +127,7 @@ h1{
   background: var(--secondary-color);
 }
 
-@media(max-width: 900px){
+@media(max-width: 768px){
   #timeline ul li div{
     width: 250px;
   }
