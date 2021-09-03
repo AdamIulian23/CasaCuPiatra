@@ -120,7 +120,7 @@ height: 50vh
   }
 .istorie{
   background: url(../Images/istorie/_DSC526112.jpg) no-repeat bottom center/cover;
-  height: 15vh;
+  height: 40vh;
   width: 100%;
 }
 
@@ -268,7 +268,7 @@ height: 50vh
 /* Page animation */
 .navbar li{
   transform: translateX(600px);
-  animation: link 1s forwards ease-in;
+  animation: link 0.5s forwards ease-in;
 }
 
 /* Keyframes */
@@ -286,6 +286,7 @@ height: 50vh
     flex-direction: column;
     align-items:center;
     height: 100px;
+    width: 100%;
     padding:25px 0;
     margin-top: -30px;
   }
@@ -329,4 +330,15 @@ height: 50vh
   .container{
     flex-direction: column;
   }
+
+  .istorie{
+    height: 30vh;
+  }
+
+  @media(max-width: 735px){
+    .istorie{
+      height: 15vh;
+    }
+  }
+ 
 }
